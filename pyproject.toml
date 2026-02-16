@@ -1,0 +1,15 @@
+[project]
+name = "langchain-course"
+version = "0.0.0"
+description = "Minimal FastAPI example for the LangChain course"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi>=0.95.0",
+  "uvicorn[standard]>=0.20.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
