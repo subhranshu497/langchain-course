@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+from langchain_openai import OpenAI
 import os
 load_dotenv()  # take environment variables from .env.
 
